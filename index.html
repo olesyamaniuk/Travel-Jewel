@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Join Sir Match-a-Lot in this epic match 3 puzzle adventure! Solve thrilling puzzles, unlock outfits, explore fantasy lands, and conquer arenas in this exciting game."
+    />
+    <meta
+      name="keywords"
+      content="match 3 game, puzzle adventure, mobile puzzle game, Sir Match-a-Lot, flameforge.site, RPG puzzle, match three game, epic puzzle, Android puzzle game"
+    />
+    <meta name="author" content="FlameForge Games" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#ff6600" />
+    <link rel="canonical" href="https://flameforge.site" />
+
+    <title>Sir: Match 3 Puzzle Adventure | FlameForge Games</title>
+    <link rel="icon" href="img/500x500.png" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div id="cookie-popup" class="t-y-cookie-popup">
+      <div class="t-y-cookie-popup-container">
+        <p class="t-y-cookie-popup-text-two">
+          We use cookies to improve your experience on our website. By browsing
+          this website, you agree to our use of cookies.
+        </p>
+        <div class="t-y-cookie-button-container">
+          <button id="accept-cookies" class="t-y-cookie-button">
+            Accept cookies
+          </button>
+          <button id="decline-cookies" class="t-y-cookie-button">
+            Decline Cookies
+          </button>
+        </div>
+      </div>
+    </div>
+    <header class="t-y-header">
+      <div class="t-y-header-background"></div>
+      <nav class="t-y-navigation">
+        <ul class="t-y-navigation-list">
+          <li class="t-y-navigation-item">
+            <a href="/" class="t-y-navigation-link">
+              <img
+                href="/"
+                class="t-y-title-img t-y-navigation-img"
+                alt="logo"
+                src="img/header/sir-match-app-icon.png"
+                style="
+                  width: 44px;
+                  height: 44px;
+
+                  border-radius: 10px;
+                "
+              />
+            </a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/" class="t-y-navigation-link">Home</a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/#about" class="t-y-navigation-link">About</a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/#why" class="t-y-navigation-link">Matching</a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/#uniqueness" class="t-y-navigation-link">Arena Battles</a>
+          </li>
+
+          <li class="t-y-navigation-item">
+            <a href="/#how" class="t-y-navigation-link">Gear & Outfits</a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/#characters" class="t-y-navigation-link">Collectibles</a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/#faq" class="t-y-navigation-link">Explore</a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/#gameplay" class="t-y-navigation-link">Gameplay</a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/#gallery" class="t-y-navigation-link">Daily Rewards</a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/#reviews" class="t-y-navigation-link">Reviews</a>
+          </li>
+
+          <li class="t-y-navigation-item">
+            <a href="/#features" class="t-y-navigation-link">Game Info</a>
+          </li>
+          <li class="t-y-navigation-item">
+            <a href="/#Contact" class="t-y-navigation-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="t-y-header-button-wrapper">
+          <a href="/" class="t-y-policy-terms-header-icon-menu">
+            <img
+              href="/"
+              class="t-y-title-img"
+              alt="logo"
+              src="img/header/sir-match-app-icon.png"
+              style="
+                width: 44px;
+                height: 44px;
+
+                border-radius: 10px;
+              "
+            />
+          </a>
+
+          <button type="button" class="t-y-header-icon-button" data-menu-button>
+            <svg
+              class="t-y-header-icon t-y-header-icon-menu"
+              width="44"
+              height="44"
+              viewBox="0 0 44 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M34 30L10 30"
+                stroke="#5BC3D7"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M34 22L10 22"
+                stroke="#5BC3D7"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M34 14L10 14"
+                stroke="#5BC3D7"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+
+            <svg
+              class="t-y-header-icon t-y-header-icon-close"
+              width="44"
+              height="44"
+              viewBox="0 0 44 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M34 30L10 30"
+                stroke="#5BC3D7"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M34 22L10 22"
+                stroke="#5BC3D7"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M34 14L10 14"
+                stroke="#5BC3D7"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="t-y-home" id="home">
+        <div class="t-y-home-container">
+          <div class="t-y-home-container-top">
+            <h1>
+              <img
+                class="t-y-home-title-img"
+                src="/img/home/sir-match-a-lot-logo.png"
+                alt="Sir: Match 3 Puzzle Adventure"
+              />
+            </h1>
+            <p class="t-y-home-title">Epic Puzzle Awaits</p>
+            <p class="t-y-home-text">
+              Unleash the Power of Match 3 Adventure! <br />Step into a world of
+              legendary puzzles and fearless battles. <br />
+              Join Sir Match-a-Lot, a valiant knight armed with a sword and
+              quick wits, on a daring quest to defeat enemies and restore peace
+              to the kingdom—one match at a time.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="t-y-about" id="about">
+        <div class="t-y-about-container">
+          <h2 class="t-y-about-title">About the Game</h2>
+          <p class="t-y-about-title-text">Begin Your Puzzle Quest</p>
+
+          <p class="t-y-about-text">
+            Sir: Match 3 Puzzle Adventure offers a dynamic mix of action,
+            fantasy, and strategic puzzle solving. You’ll gather fireflies,
+            unlock chests, and travel through enchanted realms full of mystery
+            and magic.
+          </p>
+          <p class="t-y-about-text-bold">What to Expect:</p>
+          <ul class="t-y-about-list">
+            <li>Hundreds of levels and missions</li>
+            <li>Unique mechanics introduced regularly</li>
+            <li>Meaningful progression and unlocks</li>
+          </ul>
+        </div>
+      </section>
+      <article class="t-y-why" id="why">
+        <span style="display: none"
+          >Generated: 2025-06-16, Hash: t-y-qk-t-y-39fd7x</span
+        >
+
+        <div class="t-y-why-container">
+          <h2 class="t-y-about-title">Epic Matching Action</h2>
+          <p class="t-y-about-title-text">
+            Find Gems. Make Matches. Dominate Puzzles.
+          </p>
+          <p class="t-y-about-title-text-two">
+            Put your puzzle-solving skills to the test as you guide Sir
+            Match-a-Lot through a wide range of levels. Match gems, collect rare
+            fireflies, unlock gates with powerful keys, and uncover hidden
+            rewards!
+          </p>
+          <p class="t-y-why-text-bold">Why You’ll Love It:</p>
+          <div class="t-y-why-list">
+            <div class="t-y-why-item">
+              <figure class="t-y-why-img">
+                <img
+                  class="t-y-why-img"
+                  src="img/why/icon-bomb.png"
+                  alt="bomb"
+                />
+              </figure>
+              <p class="t-y-why-text">Unique tiles, obstacles, and power-ups</p>
+            </div>
+            <div class="t-y-why-item">
+              <figure class="t-y-why-img">
+                <img
+                  class="t-y-why-img"
+                  src="img/why/icon-sticker.png"
+                  alt="sticker"
+                />
+              </figure>
+              <p class="t-y-why-text">Strategic goals beyond typical match 3</p>
+            </div>
+            <div class="t-y-why-item">
+              <figure class="t-y-why-img">
+                <img
+                  class="t-y-why-img"
+                  src="img/why/icon-treasure.png"
+                  alt="treasure"
+                />
+              </figure>
+              <p class="t-y-why-text">
+                Coins, gems, and fireflies fuel <br />
+                your journey
+              </p>
+            </div>
+          </div>
+          <div class="t-y-whyq"></div>
+        </div>
+      </article>
+      <section class="t-y-uniqueness" id="uniqueness">
+        <div class="t-y-uniqueness-container">
+          <h2 class="t-y-about-title">Intense Arena Battles</h2>
+          <p class="t-y-about-title-text">Challenge the Strongest in ARENAS</p>
+          <p class="t-y-about-title-text-two">
+            Once you’ve gathered enough keys, the gates of the ARENAS will open.
+            <br />Compete against cunning foes, dodge traps, and outmatch your
+            rivals using clever combinations and special moves.
+          </p>
+          <p class="t-y-about-text-bold t-y-uniqueness-text-bold">
+            Arena Highlights:
+          </p>
+          <ul class="t-y-about-list t-y-uniqueness-list">
+            <li>Special rules and enemies</li>
+            <li>Win trophies and rare rewards</li>
+            <li>A real test of your match 3 mastery</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="t-y-how" id="how">
+        <div class="t-y-how-container">
+          <h2 class="t-y-about-title">Gear & Outfits</h2>
+          <p class="t-y-about-title-text">Customize Your Knight for Victory</p>
+          <p class="t-y-about-title-text-two">
+            Collect and equip a variety of armor sets and gear to enhance Sir
+            Match-a-Lot’s abilities. Each outfit comes with stats and perks that
+            boost your performance in puzzles and battles.
+          </p>
+
+          <p class="t-y-about-text-bold t-y-how-text-bold">Outfit Benefits:</p>
+          <ul class="t-y-about-list t-y-how-list">
+            <li>Unlock magic powers and boosts</li>
+            <li>Change your knight’s appearance</li>
+            <li>Tailor your strategy based on your gear</li>
+          </ul>
+        </div>
+      </section>
+      <section class="t-y-characters" id="characters">
+        <div class="t-y-characters-container">
+          <h2 class="t-y-about-title">Collectibles & Sticker Books</h2>
+          <p class="t-y-about-title-text">Record Your Journey</p>
+          <p class="t-y-about-title-text-two">
+            Open treasure chests scattered throughout the kingdom to find
+            collectible STICKERS. Complete sticker books to receive unique
+            rewards and revisit milestones from your adventure.
+          </p>
+
+          <p class="t-y-about-text-bold t-y-characters-text-bold">
+            Sticker Book System:
+          </p>
+          <ul class="t-y-about-list t-y-characters-list">
+            <li>Rare stickers and themed sets</li>
+            <li>Secret unlocks for completion</li>
+            <li>Adds lore and backstory to your quest</li>
+          </ul>
+        </div>
+      </section>
+      <section class="t-y-faq" id="faq">
+        <div class="t-y-faq-container">
+          <h2 class="t-y-about-title">Explore the Kingdom</h2>
+          <p class="t-y-about-title-text">Travel Far and Wide</p>
+          <p class="t-y-about-title-text-two">
+            Explore lush forests, ancient castles, frozen peaks, and mystical
+            ruins. Each new region introduces fresh gameplay mechanics, enemies,
+            and visual themes.
+          </p>
+
+          <p class="t-y-about-text-bold t-y-faq-text-bold">
+            Kingdom Highlights:
+          </p>
+          <p class="t-y-faq-text">
+            Vibrant, hand-drawn environments
+            <br />Environmental hazards and interactive tiles <br />Dozens of
+            regions to explore
+          </p>
+        </div>
+      </section>
+      <section class="t-y-why" id="gameplay">
+        <div class="t-y-why-container">
+          <h2 class="t-y-about-title">Accessible Yet Deep Gameplay</h2>
+          <p class="t-y-about-title-text">Easy to Start, Hard to Master</p>
+          <p class="t-y-about-title-text-two">
+            Whether you're new to the genre or a puzzle pro, Sir: Match 3 Puzzle
+            Adventure adapts to your pace. With each level, you’ll face fresh
+            obstacles that challenge your timing, strategy, and creativity.
+          </p>
+          <p class="t-y-why-text-bold">Game Design Focus:</p>
+          <dl class="t-y-why-list">
+            <div class="t-y-why-item">
+              <dt class="t-y-why-img">
+                <img
+                  class="t-y-why-img"
+                  src="img/gallery/Sir 5.png"
+                  alt="Sir"
+                />
+              </dt>
+              <dd class="t-y-why-text">Gradual difficulty progression</dd>
+            </div>
+            <div class="t-y-why-item">
+              <dt class="t-y-why-img">
+                <img
+                  class="t-y-why-img"
+                  src="img/gallery/icon-book.png"
+                  alt="book"
+                />
+              </dt>
+              <dd class="t-y-why-text">Learn through play—no long tutorials</dd>
+            </div>
+            <div class="t-y-why-item">
+              <dt class="t-y-why-img">
+                <img
+                  class="t-y-why-img"
+                  src="img/gallery/icon-trophy.png"
+                  alt="trophy"
+                />
+              </dt>
+              <dd class="t-y-why-text">Replayable missions with rewards</dd>
+            </div>
+          </dl>
+          <div class="t-y-whyq"></div>
+        </div>
+      </section>
+      <section class="t-y-gallery" id="gallery">
+        <div class="t-y-gallery-container">
+          <h2 class="t-y-about-title">Daily Rewards & Live Events</h2>
+          <p class="t-y-about-title-text">Log In and Reap the Rewards</p>
+          <p class="t-y-about-title-text-two t-y-gallery-title-text-two">
+            Stay engaged with generous daily login bonuses, rotating events, and
+            seasonal tournaments. New content is added regularly to keep the
+            kingdom fresh and full of surprises.
+          </p>
+          <p class="t-y-gallery-text">Event System Includes:</p>
+          <ul class="t-y-gallery-list">
+            <li class="t-y-gallery-item">
+              <img
+                class="t-y-gallery-image"
+                src="./img/gallery/Cristal.png"
+              />Limited-time levels
+            </li>
+            <li class="t-y-gallery-item">
+              <img
+                class="t-y-gallery-image"
+                src="./img/gallery/Cristal.png"
+              />Leaderboards and competitions
+            </li>
+            <li class="t-y-gallery-item">
+              <img
+                class="t-y-gallery-image"
+                src="./img/gallery/Cristal.png"
+              />Holiday themes and bonus missions
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="t-y-reviews" id="reviews">
+        <div class="t-y-reviews-container">
+          <h2 class="t-y-about-title">Reviews</h2>
+          <p class="t-y-about-title-text">What Players Are Saying</p>
+          <ul class="t-y-reviews-list">
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "I didn’t expect this game to be so engaging, but it quickly
+                became my favorite way to relax after work. The visuals are
+                stunning, and the levels keep getting more creative as you go. I
+                especially love collecting outfits and discovering new powers
+                for Sir Match-a-Lot. It’s not just another match 3 game—it
+                actually tells a story and rewards smart play. Highly
+                recommended!"
+              </p>
+              <p class="t-y-reviews-text-bold">Olivia M. – USA</p>
+            </li>
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "Sir: Match 3 Puzzle Adventure brings a really fresh take to a
+                genre that’s been around for years. The arenas were a surprise
+                hit for me—they make the experience feel more competitive. I’ve
+                found myself checking in daily just to get rewards and see
+                what’s new. The sticker books also add a nice collectible aspect
+                that I wasn’t expecting. It feels like there’s always a reason
+                to come back."
+              </p>
+              <p class="t-y-reviews-text-bold">Marcus L. – Canada</p>
+            </li>
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "This game is visually beautiful and easy to pick up, but it
+                also rewards strategy and planning. I love how every outfit
+                changes how I approach levels—it’s like playing with different
+                classes in an RPG. Some levels really made me think, which I
+                appreciate. I’m also impressed by how generous the daily bonuses
+                are. You can play a lot without spending money."
+              </p>
+              <p class="t-y-reviews-text-bold">Yasmin R. – UK</p>
+            </li>
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "The storytelling and character design really hooked me. I like
+                games that build a world, and Sir Match-a-Lot’s kingdom is
+                colorful, whimsical, and full of surprises. The puzzles start
+                simple, but the difficulty curve is just right—it gets
+                challenging without being unfair. I’ve played over 100 levels
+                and I’m still finding new features. A fantastic adventure with
+                great pacing."
+              </p>
+              <p class="t-y-reviews-text-bold">Kenji T. – Japan</p>
+            </li>
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "I downloaded it on a whim, and I’m glad I did. The mix of
+                fantasy themes with match 3 gameplay makes it unique and
+                memorable. Sir Match-a-Lot is such a charming hero, and I love
+                unlocking different gear for him. I also appreciate that the
+                developers keep adding events and updates. It’s clear they care
+                about the community."
+              </p>
+              <p class="t-y-reviews-text-bold">Amina S. – UAE</p>
+            </li>
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "As someone who plays a lot of puzzle games, this one stands
+                out. The arena battles add depth and intensity, and unlocking
+                them felt like a real achievement. The music and sound effects
+                are also top-notch. I find myself completely immersed every time
+                I play. Great job on making something that’s both relaxing and
+                exciting!"
+              </p>
+              <p class="t-y-reviews-text-bold">Lucas D. – Germany</p>
+            </li>
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "What a gem of a game! It blends classic mechanics with new
+                ideas in a way that feels fresh and intuitive. The collectibles
+                and sticker albums are so well done—it gives me extra motivation
+                to go back and replay levels. I’m currently obsessed with
+                getting all the rare outfits. Easily one of the best mobile
+                puzzle games I’ve played."
+              </p>
+              <p class="t-y-reviews-text-bold">Sophie C. – France</p>
+            </li>
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "This game has real staying power. The developers clearly
+                thought through the progression and pacing. I love the surprises
+                that pop up in different regions. Just when I think I’ve seen
+                everything, there’s a new twist. I also appreciate how the game
+                doesn’t shove ads in your face constantly."
+              </p>
+              <p class="t-y-reviews-text-bold">Nathan H. – Australia</p>
+            </li>
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "Sir Match-a-Lot is a true knight in shining armor—and the game
+                is equally heroic! From the moment I started playing, I was
+                drawn into the story and couldn’t stop matching. There’s a
+                genuine sense of reward and accomplishment in every level. The
+                arenas are my favorite part, though. They make every match feel
+                like a duel."
+              </p>
+              <p class="t-y-reviews-text-bold">Lucia V. – Spain</p>
+            </li>
+            <li class="t-y-reviews-item">
+              <p class="t-y-reviews-text">
+                "Bravo to the team behind this game! The variety of puzzle
+                elements and power-ups makes every level feel different and
+                fresh. I also like how it encourages exploration through the
+                sticker books and collectibles. The artwork is bright and
+                expressive without being overdone. Definitely a top-tier match 3
+                game for all ages."
+              </p>
+              <p class="t-y-reviews-text-bold">Caleb B. – South Africa</p>
+            </li>
+          </ul>
+          <div class="t-y-gallery-button-container">
+            <button class="t-y-gallery-button t-y-reviews-list-left">
+              <img
+                class="t-y-gallery-button-icon"
+                src="img/reviews/Arrow (1).png"
+                alt="left button"
+              />
+            </button>
+            <button class="t-y-gallery-button t-y-reviews-list-right">
+              <img
+                class="t-y-gallery-button-icon"
+                src="img/reviews/Arrow (2).png"
+                alt="right button"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="t-y-features" id="features">
+        <div class="t-y-features-container">
+          <h2 class="t-y-features-title">Game Information</h2>
+
+          <ul class="t-y-features-list">
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                Latest Version:
+
+                <span class="t-y-features-text">1.29.1.745</span>
+              </p>
+            </li>
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                Last Updated:
+
+                <span class="t-y-features-text">March 26, 2025</span>
+              </p>
+            </li>
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                Platform:
+
+                <span class="t-y-features-text"> Android 5.0 and up</span>
+              </p>
+            </li>
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                Downloads:
+                <span class="t-y-features-text"> 10,000+</span>
+              </p>
+            </li>
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                Developer:
+
+                <span class="t-y-features-text">Elephant Games</span>
+              </p>
+            </li>
+          </ul>
+          <ul class="t-y-features-list t-y-features-item-two">
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                Category:
+
+                <span class="t-y-features-text">Puzzle, Adventure </span>
+              </p>
+            </li>
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                Language Support:
+
+                <span class="t-y-features-text"
+                  >English, German, Spanish, French, and more</span
+                >
+              </p>
+            </li>
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                <span class="t-y-features-text"> </span>
+              </p>
+            </li>
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                In-App Purchases:
+
+                <span class="t-y-features-text"> Yes</span>
+              </p>
+            </li>
+            <li class="t-y-features-item">
+              <p class="t-y-features-text-bold">
+                Offline Play:
+                <span class="t-y-features-text">Available</span>
+              </p>
+            </li>
+          </ul>
+          <div class="t-y-whyq"></div>
+        </div>
+      </section>
+      <section class="t-y-contact" id="contact">
+        <div class="t-y-contact-container">
+          <h2 class="t-y-features-title">Contact & Support</h2>
+          <p class="t-y-contact-text-bold">
+            Have a question, issue, or suggestion? We’re here to help!
+          </p>
+
+          <ul class="t-y-contact-list">
+            <li class="t-y-contact-item">
+              Email:
+              <a class="t-y-contact-text" href="mailto:info@flameforge.site"
+                >info@flameforge.site</a
+              >
+            </li>
+            <li class="t-y-contact-item">
+              Support Hours:
+              <span class="t-y-contact-text"
+                >Monday – Friday, 9 AM – 6 PM UTC</span
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="t-y-footer" style="margin: auto; background: #003a40">
+      <div class="t-y-footer-container">
+        <div class="t-y-footer-container-two">
+          <div class="t-y-footer-div">
+            <p class="t-y-footer-text-one">Follow Us:</p>
+            <div class="t-y-footer-div-img">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="t-y-footer-img"
+                  src="/img/footer/ic_baseline-facebook.png"
+                  alt="facebook"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="t-y-footer-img"
+                  src="/img/footer/ri_instagram-fill.png"
+                  alt="instagram"
+                />
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="t-y-footer-img"
+                  src="/img/footer/fa6-brands_square-x-twitter.png"
+                  alt="x"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="t-y-footer-img"
+                  src="/img/footer/mdi_youtube.png"
+                  alt="youtube"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="t-y-footer-wrapper">
+            <a class="t-y-footer-text" href="/policy.html">Privacy Policy</a>
+            <a class="t-y-footer-text" href="/terms.html"
+              >Terms and Conditions
+            </a>
+            <a class="t-y-footer-text" href="/cookies.html">Cookies Policy</a>
+          </div>
+        </div>
+        <p class="t-y-footer-copyright">
+          © 2025 FlameForge.site. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/jquery-loc-t-y-0.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+  </body>
+</html>
