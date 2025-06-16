@@ -617,12 +617,11 @@ a {
   .t-u-gallery-button:hover {
     scale: 120%;
   }
-  .t-u-reviews {
+
+  .t-u-reviews-container {
     width: 1440px;
     height: 526px;
     background-image: url("/img/reviews/Reviews.png");
-  }
-  .t-u-reviews-container {
     position: relative;
     margin: auto;
     padding: 80px 256px 0 640px;
